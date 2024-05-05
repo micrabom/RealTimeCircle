@@ -20,9 +20,19 @@ body {
 }
 
 .container {
-	width: 960px;
-	margin: 0 auto;
-
+	width: 750px;
+    display: flex;
+}
+ 
+.container-wrapper{
+    width: 950px;
+}
+.body-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-wrapper{
+    width: 100%;
 }
 
 h1 {
@@ -31,9 +41,8 @@ h1 {
 	margin-bottom: 20px;
 }
 
-button,
 a.button {
-	display: inline-block;
+    margin-bottom: 16px;
 	padding: 8px 12px;
 	border: none;
 	border-radius: 4px;
@@ -43,10 +52,6 @@ a.button {
 	text-align: center;
 	font-size: 16px;
 	cursor: pointer;
-}
-
-a.button {
-	background-color: #6c757d;
 }
 
 button:focus,
@@ -78,8 +83,14 @@ a.button:focus {
 
 }
 
+.action-btn a.button{
+    padding-left: 1rem;
+}
+
 .container .action-btn {
-	display: inline-block;
+	display: flex;
+    width: 100%;
+    max-height: 3rem;
 }
 
 .container .log-wrapper {

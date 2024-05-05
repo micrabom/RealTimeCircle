@@ -168,7 +168,7 @@ class CircleAnimation {
         circle.style.height = `${circleDetails.diameter}px`;
         circle.style.borderRadius = '50%';
         circle.style.backgroundColor = circleDetails.color;
-        circle.style.zIndex = -1;   
+        circle.style.zIndex = -1;
 
         document.body.appendChild(circle);
     }
