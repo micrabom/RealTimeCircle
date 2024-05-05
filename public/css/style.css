@@ -1,0 +1,120 @@
+:root {
+	--green: #00C9B7 !important;
+	--blue: #4b52b0 !important;
+	--purple: #A32596 !important;
+	--yellow: #f8f813 !important;
+	--dark: #222222;
+	--body: #888;
+	--font-color: #414141;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+h1 {
+	color: #003d3d;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+button,
+a.button {
+	display: inline-block;
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+a.button {
+	background-color: #6c757d;
+}
+
+button:focus,
+a.button:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #333;
+}
+
+#yellow_btn {
+	background-color: var(--yellow);
+	border: 1px solid #333;
+}
+
+#green_btn {
+	background-color: var(--green);
+	border: 1px solid #333;
+
+}
+
+#purple_btn {
+	background-color: var(--purple);
+	border: 1px solid #333;
+
+}
+
+#blue_btn {
+	background-color: var(--blue);
+	border: 1px solid #333;
+
+}
+
+.container .action-btn {
+	display: inline-block;
+}
+
+.container .log-wrapper {
+	background-color: white;
+	margin-left: 390px;
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	min-height: 400px;
+	border: 1px solid var(--body);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.container .log-container {
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	min-height: 400px;
+	padding: 10px;
+}
+
+.log-container p {
+	background-color: #fff;
+	color: var(--font-color);
+	font-size: 0.9rem;
+}
+
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black !important;
+}
+
+.realtime-pointer {
+	pointer-events: none;
+}
